@@ -1,0 +1,9 @@
+- Dodati administratoski navbar
+- Dodati dodavanje komentara za ulogovane korisnike -------------
+- Dodati dodavanje filmova za administratora i korisnike
+- "Otkucati" homepage tako da se podaci izvlace iz baze ------------
+- Dodati pomjeranje za nove filmove na homepageu +++++++
+- Osposobiti search
+- Verifikacija za dodavanje komentara
+- Edit profile stranica
+- Dodati friend listu

@@ -1,0 +1,75 @@
+{
+    "movies":[
+        {
+            "title": "The Dictator",
+            "id": 1,
+            "body": "The heroic story of a dictator who risked his life to ensure that democracy would never come to the country he so lovingly oppressed.",
+            "filename":"the-dictator.png"
+        },
+
+        {
+            "title": "Avengers: Endgame",
+            "id": 2,
+            "body": "After half of all life is snapped away by Thanos, the Avengers are left scattered and divided. Now with a way to reverse the damage, the Avengers and their allies must assemble once more and learn to put differences aside in order to work together and set things right.",
+            "filename":"avengers-endgame.png"
+        },
+
+        {
+            "title": "The Godfather",
+            "id": 3,
+            "body":"The story, spanning from 1945 to 1955, chronicles the Corleone family under patriarch Vito Corleone (Brando), focusing on the transformation of his youngest son, Michael Corleone (Pacino), from reluctant family outsider to ruthless mafia boss.",
+            "filename":"the-godfather.png"
+        },
+
+        {
+            "title": "The Lord of The Rings: The Fellowship of The Ring",
+            "id": 4,
+            "body": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron. An ancient Ring thought lost for centuries has been found, and through a strange twist of fate has been given to a small Hobbit named Frodo.",
+            "filename":"lord-of-the-rings-fellowship.png"
+        },
+
+        {
+            "title": "Inception",
+            "id": 5,
+            "body": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",
+            "filename":"inception.png"
+        }
+    ],
+
+    "accounts": [
+        {
+            "firstName": "Vlado",
+            "lastName": "Jovanovic",
+            "username": "Dovlisimus",
+            "email": "vlaki200@yahoo.com",
+            "password": "dovlisimus1"
+        }
+    ],
+
+    "comments": [
+        {
+            "comment_no": 1,
+            "movie_id": 1,
+            "account_id": 1,
+            "stars_no": 5,
+            "title": "Absolutely fantastic",
+            "description": "Definitely one of the best comedies I've seen in a while!"
+        },
+        {
+            "comment_no": 1,
+            "movie_id": 1,
+            "account_id": 3,
+            "stars_no": 3,
+            "title": "Glorious",
+            "description": "Really made me laugh my soul out at times, almost died laughing"
+        },
+        {
+            "comment_no": 1,
+            "movie_id": 2,
+            "account_id": 3,
+            "stars_no": 3,
+            "title": "Great",
+            "description": "Loved the movie, so much action"
+        }
+    ]
+}

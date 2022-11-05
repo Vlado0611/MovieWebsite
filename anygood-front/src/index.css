@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*background-image: url("./Images/background.png");*/
+  background-color: black !important;
+  /*background-repeat: no-repeat;
+  background-size: cover;*/
+  overflow-x: hidden;
+}
+/*----------NAVBAR-----------*/
+.nav-container {
+  margin: 0 !important;
+}
+
+.navbar :hover {
+  background: #000;
+}
+
+.navbar-brand {
+  font-size:xx-large !important;
+}
+
+.navbar-links {
+  color:white;
+}
+
+.search-button {
+  width: 15rem;
+}
+
+/*----------HomePage-----------*/
+
+.carousel{
+  height: 85vh;
+  width: 98vw;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-item img {
+  height: 80vh;
+}
+
+.carousel-button {
+  width: 10vw;
+  height: 7vh;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 3vh;
+  border: 0;
+  z-index: 5;
+}
+
+.carousel-button:hover {
+  background-color: rgba(0, 0, 0, 1);
+  color:white;
+}
+
+.home-slider  img {
+  height: 60vh;
+  display: inline;
+  padding: 10px; 
+}
+
+.trending-container {
+  min-width: 30vw;
+}
+
+.last-img-in-slider {
+  position:relative;
+}
+
+.slider-button-right{
+  position: absolute;
+  right:-14%;
+  top:25%;
+}
+
+.slider-button-right button {
+  height: 25vh;
+  width: 5vw;
+}
+
+.slider-button-left {
+  position: absolute;
+  left:-14%;
+  top:25%;
+}
+
+.slider-button-left button {
+  height: 25vh;
+  width: 5vw;
+}
+
+/*----------LogIn and Register-----------*/
+.auth-form {
+  max-width: 500px !important;
+}
+
+.auth-form label {
+  text-align: left !important;
+  font-weight: bold !important;
+  display: block;
+}
+
+.auth-form label.gender {
+  display: inline;
+}
+
+/*----------Movies-----------*/
+.movie-title {
+  position: relative;
+  left: 15%;
+}
+
+.fav-star {
+  background-color: inherit;
+  color:#f51161;
+}
+
+.fav-star i {
+  cursor:pointer;
+}
+
+.list-card-member {
+  border:rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 26px;
+  padding: 10px;
+}
+
+.list-card-member p, .list-card-member h2  {
+  color:rgba(0, 0, 0, 1) !important;
+}
+
+.list-card-member:hover{
+  background-color: rgba(51, 32, 51, 0.69);
+}
+
+.list-card-member:hover p, .list-card-member:hover h2  {
+  color:rgba(255, 255, 255, 1) !important;
+}
+
+.list-card-member:hover span {
+  color:green !important;
+}
+
+.list-card-image img {
+  height: 40vh;
+  width: 15vw;
+  display: inline;
+}
+
+.edit-movie:hover {
+  color:yellow;
+}
+
+/* -------- Pagination ----------- */
+
+.pagination > li {
+  position: relative;
+  left: 50%;
+  display: inline-block;
+  padding-left: 0;
+}
+.pagination > li {
+  list-style: none;
+  border: 0.9px solid;
+}
+.pagination > li > a,
+.pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  line-height: 1.42857143;
+  text-decoration: none;
+  color: #2c689c;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-left: -1px;
+}
+
+.pagination>li.active>a {
+  color: #fff;
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+/* Style the active class (and buttons on mouse-over) */
+.pagination > li > a:hover {
+  background-color:  #218838;
+  color: white;
+}
+.pagination > li:first-child > a,
+.pagination > li:first-child > span {
+  margin-left: 0;
+    padding: 0px;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  display: none!important;
+}
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  border-bottom-right-radius: 4px;
+  margin-right: 0;
+  padding: 0px!important;
+  border-top-right-radius: 4px;
+  display: none!important;
+}
+
+/*----------CommentPage-----------*/
+
+.comments-card {
+  border: 2px solid rgba(210, 210, 210, 1.0);
+  border-radius: 20px;
+  /*background-color: rgba(173, 180, 130, 0.7);*/
+  background-color: #FFB300;
+  box-shadow: 10px 5px; 
+}
+
+.comment {
+  border: 1px solid black;
+  border-radius:10px;
+}
+
+.comment-light {
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow:5px 3px;
+  
+}
+
+.comment-dark {
+  background-color: rgba(170, 170, 170, 0.7);
+  box-shadow:5px 3px;
+
+}
+
+.delete-comment {
+  z-index: 2;
+  color: red;
+  cursor: pointer;
+
+}
+
+.add-comment {
+  font-size: 1.5rem;
+  position: relative;
+  right:5%;
+}
+
+.add-comment:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* --------Comment Form --------- */
+
+.comment-form {
+  border: 2px solid black;
+  background-color: #1a1918;
+  max-width: 500px !important;
+  border-radius:10px;
+  box-shadow: 5px 5px white;
+}
+
+.comment-form label {
+  text-align: left !important;
+  font-weight: bold !important;
+  display: block;
+}
+
+.comment-stars {
+  text-align: left !important;
+  margin-top: 4%;
+  color:#EBCB80;
+  font-size:x-large;
+}
+
+.comment-star-hovered {
+  text-align: left !important;
+  margin-top: 4%;
+  font-size:x-large;
+  color:#FFB300 !important;
+}
+
+.comment-stars button {
+  outline: none;
+  color:inherit;
+  background: none;
+  border: none;
+}
+
+/* ------- Profile ------ */
+.profile-header {
+  background-color: #cbced6;
+  box-shadow: 10px 10px 5px;
+  border-radius: 2px;
+}
+
+.nav-link {
+  color:#272c38 !important;
+  border-color: #272c38 !important;
+}
+
+.nav-link.active {
+  background-color: #272c38 !important;
+  color: white !important;
+  border-radius: 2px;
+}
+
+.profile-comment {
+  background-color: #1a1918;
+  color: #ddd;
+  box-shadow: 5px 5px 3px #2a4063;
+}
+
+.profile-img {
+  height:150px;
+  width: 150px;
+}
+
+.profile-description{
+  white-space: pre-line;
+}
+/* ------- Edit profile ------ */
+.profile-edit {
+  background-color: #cbced6;
+  box-shadow: 10px 10px 5px;
+  border-radius: 2px;
+}
+
+.edit-form {
+  max-width: 800px;
+  width: 600px;
+}
+
+.edit-form label {
+  text-align: left !important;
+  font-weight: bold !important;
+  display: block;
+}
+
+/* ------- Add Movie -------- */
+
+.form-cont {
+  background-color: #2a4063;
+  box-shadow: 5px 5px 3px;
+  border-radius: 10px;
+} 
+
+.form-field {
+  max-width: 600px;
+  width:500px;
+}
+
+/* ------- Friendlist -------- */
+.friend1 {
+  position:static;
+  border-left: 7px solid #2a4063;
+}
+
+.friend2 {
+  position:static;
+  border-left: 7px solid #e67a07;
+}
+
+.friend-link {
+  text-decoration: none;
+  color:#1a1918;
+}
+/* ------- All -------*/
+link {
+  text-decoration: none !important;
+}
+
+
+code {
+    font-family: 'Quicksand', sans-serif;
+}
